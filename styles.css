@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+
+/** Assignment #1 */
+#indexId {
+	background-image: url(images/worldWideWebImg.jpg);
+	background-position: top left;
+}
+
+#trans_section {
+	width: 350px;
+	margin: 50px auto 30px 100px; /* TOP RIGHT BOTTOM LEFT */
+	border: 5px solid #FFFFFF;
+	height: 350px;
+	padding: 5px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#sweDiv {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: varial, helvetica, sans-serif;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #00FF00;
+}
+
+.footer_class {
+	margin: 230px auto 30px 100px;
+	font-family: varial, helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center 
+}
+
+/** Assignment #2 */
+body {
+	background-image: url(images/bgImg5.jpg);
+	background-position: 0px;
+	margin: 0px;
+	font-family: varial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+header {
+	width: 1120px;
+	margin: 10px auto 30px auto; /* TOP RIGHT BOTTOM LEFT */
+	border: 0px solid #000000;
+	height: 35px;
+	padding: 0px;
+	/*background-color: #FFD700;*/
+	font-size: 15px;
+	text-align: left;
+}
+
+h1 {
+	text-shadow: -4px 4px 6px #FDD017;
+	font-size: 35px;
+	color: #008000;
+	text-align: center;
+}
+
+nav, footer {
+	clear: both;
+	color: #ffffff;
+	background-color: #FDD017;
+	height: 30px;
+	border-radius: 10px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+nav li a {
+	color: #ffffff;
+}
+
+nav li a:hover, nav li a.current {
+	color: #000000;
+}
+
+#body_wrapper {
+	width: 1100px;
+	margin: 55px auto 30px auto; /* TOP RIGHT BOTTOM LEFT */
+	border: 0px solid #000000;
+	height: 600px;
+	padding: 10px;
+	background-color: #008000;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+section.welcomeInfo {
+	float: left;
+	/*width: 659px;*/
+	border-right: 5px solid #FDD017;
+	width: 300px;
+	font-size: 10px;
+	padding-left: 0px;
+}
+
+section a {
+	display: block;
+	padding: 10px;
+	border-bottom: 5px solid #FDD017;
+	font-size: 12px;
+}
+
+section a:link {
+	color: black;
+}
+
+section a:hover {
+	color: #FDD017;
+	background-color: #efefef;
+}
+
+section ul li ul li {
+	font-size: 12px;
+	color: #FFF;
+	padding-top: 5px;
+}
+
+aside {
+	/*width: 230px;*/
+	width: 659px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+
+.mastersDegree {
+	font-family: serif, sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+
+#bottom {
+	margin: 435px auto auto 1000px; /*80px auto auto 60px; /* TOP RIGHT BOTTOM LEFT */
+	height: 100px; 
+	width: 100px; 
+	float: right;
+}
+
+label {
+	font-size: 15px;
+	font-family: serif, sans-serif;
+	color: yellow;
+}
